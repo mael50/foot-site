@@ -1,5 +1,6 @@
 <template>
     <div>
-        <p>Ceci est un paragraphe</p>
+        <p>Page d'accueil</p>
     </div>
 </template>
+
