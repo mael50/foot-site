@@ -6,8 +6,8 @@ header("Access-Control-Allow-Headers: *");
 $uri = $_GET['uri'];
 $token = '1a6ea4a5235c48d0bab60269ce0eed4c';
 
-// Set cache time to 5 minutes
-$cache_time = 300;
+// Set cache time to 10 minutes
+$cache_time = 600;
 
 // Generate cache file name based on URI
 $cache_file = '.cache/' . md5($uri) . '.cache';
